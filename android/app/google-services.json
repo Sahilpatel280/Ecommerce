@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "769266265384",
+    "project_id": "sahilt-629bd",
+    "storage_bucket": "sahilt-629bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769266265384:android:de1466c56021694237b41d",
+        "android_client_info": {
+          "package_name": "com.example.clg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ7b2_IWQ7XYSMwG1utE_H_GEPCxQ6MLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

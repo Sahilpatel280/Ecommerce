@@ -1,0 +1,89 @@
+name: clg
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+
+#-------------------PACKAGES-----------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+    #Utility Packages
+
+  http: ^1.2.2
+  intl: ^0.19.0
+  logger: ^2.2.0
+  url_launcher: ^6.2.6
+  adaptive_theme: ^3.6.0
+  smooth_page_indicator: ^1.1.0
+  flutter_screenutil: ^5.9.3
+  email_otp: ^3.0.2
+  shared_preferences: ^2.3.3
+
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # Product Specific
+  readmore: ^3.0.0
+  carousel_slider: ^5.0.0
+  flutter_rating_bar: ^4.0.1
+
+  #firebase
+  firebase_core: ^3.6.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+     - assets/logo/
+     - assets/logo/logo.png
+     - assets/icons/
+     - assets/user/
+     - assets/images/on_boarding_images/
+     - assets/images/animations/
+     - assets/review/
+     - assets/icons/categories/
+     - assets/icons/payment_method/
+     - assets/images/banner/
+     - assets/images/products/
+
+
+  fonts:
+     - family: Poppins
+       fonts:
+         - asset: assets/fonts/Poppins-Light.ttf
+           weight: 300
+         - asset: assets/fonts/Poppins-Regular.ttf
+           weight: 400
+         - asset: assets/fonts/Poppins-Italic.ttf
+           style: italic
+         - asset: assets/fonts/Poppins-Medium.ttf
+           weight: 500
+         - asset: assets/fonts/Poppins-Bold.ttf
+           weight: 700
+         - asset:  assets/fonts/Poppins-SemiBold.ttf
+           weight: 700
+
+
